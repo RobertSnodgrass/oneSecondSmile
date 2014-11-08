@@ -5,7 +5,7 @@
 
 
 
-// Our variables
+// // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
@@ -13,7 +13,7 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:      black;  
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -24,6 +24,10 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
+//kill this css file
+//replace with my own css file
+//write all new code for it
+//LINK TO IT IN THE HEAD
 
 
 // Using media queries with like this:
@@ -33,11 +37,66 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
+body{
+	//background-image: url('../images/backgroundTest.jpg'); 
+	//if in header, it only shows up in the top area and any H# lines
+	//if in body, it shows everywhere on the site
+}
+
+p.site-footer{
+	padding-right: 22px;
+	padding-left: 22px;
+}
+
+.page-link{
+	display: inline-block;
+}
+
+.bigfoot{
+	border-bottom: 2px red solid;
+}
+
+.footer-col{
+	border: 2px black solid;
+	overflow: auto;
+	display: inline-block;
+}
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
+
+
+
+.mainBox{
+	border: 2px green solid;
+	height: 300px;
+	width: 300px;
+}
+
+.postPic{
+	border: 4px red solid;
+	height: 300px;
+	width: 200px;
+}
+
+.site-header{
+	background-color: #3A5162;
+	color: #8EABC0;  
+}
+
+.post-link{
+	color: black; 
+	background-color: orange; 
+}
+
+.page-link{
+	color: black;  
+}
+
 
 
 

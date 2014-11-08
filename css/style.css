@@ -1,0 +1,104 @@
+/*-----------------------------------------------------------------------------------------------------
+----------------------------------------------[HEADER]-------------------------------------------------
+-----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*Font HTML Link
+Instructions: To embed your Collection into your web page, copy the code as the first element in the <head> of your HTML document.
+<link href='http://fonts.googleapis.com/css?family=Rajdhani:300,400,700|Quicksand:300,400|Marvel|Voltaire|Carrois+Gothic+SC|Raleway+Dots' rel='stylesheet' type='text/css'>
+
+Font CSS:
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Marvel', sans-serif;
+font-family: 'Voltaire', sans-serif;
+font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'Raleway Dots', cursive;
+
+Instructions: Add the font name to your CSS styles just as you'd do normally with any other font.
+
+Example:
+
+h1 { font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; }*/
+
+
+.site-nav{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 2em;
+	color: white;
+}
+
+.site-title{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 4.5em;
+	border: white 2px solid;
+	background-color: white;
+	border-radius: 10px;
+	color: #3A5162;
+}
+
+header .wrapper{
+	text-align: center;
+	border-radius: 10px;
+	background-color: #3A5162;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header .page-link{
+	border: #3A5162 2px solid;
+	color: white;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/*-----------------------------------------------------------------------------------------------------
+-----------------------------------------------[BODY---------------------------------------------------
+-----------------------------------------------------------------------------------------------------*/
+
+body .page-content{
+	border: red 2x solid;
+}
+
+/*.mainBox{
+	border: 2px green solid;
+	height: 300px;
+	width: 300px;
+}
+
+.postPic{
+	border: 4px red solid;
+	height: 300px;
+	width: 200px;
+}*/
+
+/*.site-header{
+	background-color: #3A5162;
+	/*color: #8EABC0; */
+}*/
+
+.post-link{
+	color: black; 
+	background-color: orange; 
+}
+
+.page-link{
+	color: black;  
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------
+----------------------------------------------[FOOTER]-------------------------------------------------
+-----------------------------------------------------------------------------------------------------*/
+
+/*.wrapper{
+	border: red 2px solid;
+	border-radius: 20px;
+}*/
