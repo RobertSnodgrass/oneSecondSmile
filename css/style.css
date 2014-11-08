@@ -59,11 +59,15 @@ header .page-link{
 }
 
 /*-----------------------------------------------------------------------------------------------------
------------------------------------------------[BODY---------------------------------------------------
+-----------------------------------------------[BODY]---------------------------------------------------
 -----------------------------------------------------------------------------------------------------*/
 
-body .page-content{
-	border: red 2x solid;
+.wrapper-body{
+	max-width: 60%;
+	margin: 0 auto;
+	border: #3A5162 2px solid;
+	border-radius: 10px;
+
 }
 
 /*.mainBox{
@@ -81,7 +85,7 @@ body .page-content{
 /*.site-header{
 	background-color: #3A5162;
 	/*color: #8EABC0; */
-}*/
+/*}
 
 .post-link{
 	color: black; 
@@ -91,7 +95,7 @@ body .page-content{
 .page-link{
 	color: black;  
 }
-
+*/
 
 
 /*-----------------------------------------------------------------------------------------------------
@@ -102,3 +106,12 @@ body .page-content{
 	border: red 2px solid;
 	border-radius: 20px;
 }*/
+
+.wrapper-footer{
+	max-width: 60%;
+	margin: 0 auto;
+	border: #3A5162 2px solid;
+	border-radius: 10px;
+}
+
+\
