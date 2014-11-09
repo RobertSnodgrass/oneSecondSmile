@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Cheer Up 
+title: "Just For Fun" 
 date: 2014-10-07
-categories: Cheer Up
+categories: post
 cover-photo: /images/cheer-up1.jpg
 ---
 
-This is my post about AWW YISS MUTHA FUGGIN' BREADCRUMBS.
+Contains the first batch of Just for Fun pictures
 
 <div class="postPic">
 	</div>
@@ -25,6 +25,9 @@ print_hi('Tom')
 	<img src='/images/cheer-up1.jpg'>
 	<img src='/images/cheer-up1.jpg'>
 </div>
+
+<div class="postPic">
+	</div>
 
 * Test
 * Bullet unordered list
