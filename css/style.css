@@ -47,7 +47,7 @@ header .page-link{
 .wrapper-body{
 	max-width: 80%;
 	margin: 0 auto;
-	border: #3A5162 2px solid;
+	/*border: #3A5162 2px solid;*/
 	border-radius: 10px;
 	/*background-image: url('../images/backgroundTest.jpg'); Adds background just to the div */
 }
@@ -59,6 +59,10 @@ header .page-link{
 	margin-right: auto;
 	border: black 2px solid;
 	margin-top: 20px;
+}
+
+.jGrav{
+
 }
 
 /*body{

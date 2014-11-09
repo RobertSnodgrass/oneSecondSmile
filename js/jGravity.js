@@ -58,9 +58,9 @@ FUNCTIONS
 			var settings = {
                 target: 'div, span, img, ol, ul, li, a, blockquote, button, input, embed, h1, h2, h3, h4, h5, h6, label, object, option, p, pre, span, table',
 				ignoreClass: '',
-				weight: 20,
+				weight: 100,
 				depth: 1,
-				drag: true
+				drag: false,
             }
 			     
             var options =  $.extend(settings, options);
@@ -70,15 +70,15 @@ FUNCTIONS
 				
 				// allow user to specify target as 'everything'
 				if (o.target == 'everything') {
-					o.target = 'body *'
+					o.target = '*'
 				}
 				
 				// allow user to specify weight as 'light' or 'heavy'
 				if (o.weight == 'light') {
-					o.weight = 50;
+					o.weight = 1;
 				}
 				else if (o.weight == 'heavy') {
-					o.weight = 1;
+					o.weight = 50;
 				}
 
 				// Add gravity to target elements
