@@ -110,7 +110,7 @@ var canvas, worldAABB, world, mouseJoint;
 var delta = [0,0];
 var stage = [window.screenX,window.screenY,window.innerWidth,window.innerHeight];
 var isRunning = false;
-var isMouseDown = false;
+var isMouseDown = true;
 var iterations = 1;
 var timeStep = 1/25; 
 var walls = new Array();
