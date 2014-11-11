@@ -9,6 +9,10 @@
 ----------------------------------------------[HEADER]-------------------------------------------------
 -----------------------------------------------------------------------------------------------------*/
 
+/*
+@media only screen and ()
+*/
+
 /*Font CSS:	Rajdhani, Quicksand, Marvel, Voltaire, Carrois Gothic SC, Raleway Dots
 font-family: '[fontName]', sans-serif;
 
@@ -16,25 +20,27 @@ Instructions: Add the font name to your CSS styles just as you'd do normally wit
 Example: h1 { font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; }*/
 
 .site-nav{
-	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Voltaire', sans-serif;
 	font-size: 2em;
 	color: white;
 }
 
 .site-title{
 	font-family: 'Quicksand', sans-serif;
+	/*font-weight: bold;*/
 	font-size: 4.5em;
-	border: white 2px solid;
-	background-color: white;
+	/*border: white 2px solid;*/
+	/*background-color: white;*/
 	border-radius: 10px;
-	color: #3A5162;
+	/*color: #3A5162;*/
+	color: white;
 }
 
 header .wrapper{
 	text-align: center;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	background-color: #3A5162;
-	width: 80%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 5px;
@@ -45,6 +51,17 @@ header .page-link{
 	color: white;
 	margin-left: 15px;
 	margin-right: 15px;
+}
+
+.testbutton{
+	width: 50px;
+	height: 50px;
+	border: black 2px solid;
+	background-color: white;
+	dsplay: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 /*-----------------------------------------------------------------------------------------------------
