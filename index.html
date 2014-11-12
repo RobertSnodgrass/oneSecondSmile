@@ -5,18 +5,8 @@ layout: default
 <!--this is the middle of the main page-->
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <!-- <h1 class="page-heading">Posts</h1> -->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-        </h2>
-        {{ post.excerpt }}
-      </li>
 
           <div id="slides">
                 <div><img src="images/CheerUp1.png" alt=""></div>
@@ -30,16 +20,38 @@ layout: default
                 <div><img src="images/CheerUp9.png" alt=""></div>
                 <div><img src="images/CheerUp99.png" alt=""></div>
           </div> 
-      
 
-        <div class="row">
-   
-            <button class="jGrav">Do not press this button.</button>
-            <span id="spacer"></span>
-        </div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <!-- <li> -->
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+        </h2>
+        <!-- {{ post.excerpt }} -->
+      <!-- </li> -->
+
+<!--           <div id="slides">
+                <div><img src="images/CheerUp1.png" alt=""></div>
+                <div><img src="images/CheerUp2.png" alt=""></div>
+                <div><img src="images/CheerUp3.png" alt=""></div>
+                <div><img src="images/CheerUp4.png" alt=""></div>
+                <div><img src="images/CheerUp5.png" alt=""></div>
+                <div><img src="images/CheerUp6.png" alt=""></div>
+                <div><img src="images/CheerUp7.png" alt=""></div>
+                <div><img src="images/CheerUp8.png" alt=""></div>
+                <div><img src="images/CheerUp9.png" alt=""></div>
+                <div><img src="images/CheerUp99.png" alt=""></div>
+          </div>  -->
 
         <button type="button" class="slick-prev">Previous</button>
         <button type="button" class="slick-next">Next</button>
 
     {% endfor %}
+
+     <div class="row">
+            <button class="jGrav">Do not press this button.</button>
+            <span id="spacer"></span>
+        </div>
 </div>

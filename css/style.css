@@ -23,6 +23,7 @@ Example: h1 { font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; }*
 	font-family: 'Voltaire', sans-serif;
 	font-size: 2em;
 	color: white;
+	height: 50px;
 }
 
 a.site-title{
@@ -54,8 +55,8 @@ header .page-link{
 	text-align: center;
 }
 
-#george{
-	height: 100px;
+#george.row{
+	height: 70px;
 }
 
 .jGrav{
