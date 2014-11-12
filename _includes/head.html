@@ -17,5 +17,8 @@
     <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
     <link rel="stylesheet" href="{{ "css/style.css"}}">
 
+    <!--The | prepend: site.baseurl ADDS everything from _config.yml's baseurl BEFORE the actual link-->
+    <!--This is extremely useful because now you don't have to actually change the link paths!-->
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
