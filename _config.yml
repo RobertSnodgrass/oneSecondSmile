@@ -4,7 +4,7 @@ email: robert.snodgrass@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   oneSecondSmile - Upward arcs across the facade 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "robertsnodgrass.github.io/oneSecondSmile/" # the base hostname & protocol for your site
+url: "/oneSecondSmile/" # the base hostname & protocol for your site
 twitter_username: Zeiganstrell
 github_username:  RobertSnodgrass
 
