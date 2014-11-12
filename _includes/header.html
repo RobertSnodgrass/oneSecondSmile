@@ -4,13 +4,13 @@
   <div class="wrapper">
 
   <div id="george" class="row">
-    <a class="site-title column large-12 small-12" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title column large-12 small-12" href="{{ prepend: site.baseurl }}/">{{ site.title }}</a>
     <!-- <a class="page-link" href="/About/">About</a> -->
   </div>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
-        <a class="page-link column large-12 small-12" href="/About/">[about the author of this prototype]</a>
+        <a class="page-link column large-12 small-12" href="/About/ | prepend: site.baseurl }}">[about the author of this prototype]</a>
         <!-- <a class="post-link" href="/post/2014/10/07/Just-For-Fun.html">Just For Fun</a> -->
 
         
