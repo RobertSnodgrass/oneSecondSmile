@@ -76,6 +76,35 @@ header .page-link{
 	margin-top: 20px;
 }
 
+#slides{
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	/*border: red 2px solid;*/
+}
+
+/*.slick-track{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 30%;
+	margin: 0 auto;
+	display: block;
+}*/
+
+.slick-initialized.slick-slider{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 30%;
+	margin: 0 auto;
+	display: block;
+
+}
+
+
+
 /*body{
 	background-image: url('../images/backgroundTest.jpg'); Adds background to the entire page, looks hilarious
 }*/
