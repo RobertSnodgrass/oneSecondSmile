@@ -6,7 +6,8 @@ date: 2014-10-07
 
 Contains the first batch of Just for Fun pictures
 
-<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<a class="site-title" href="{{ site.title }} | prepend: site.url }}"</a>
+
 
 <!-- <div class="postPic">
 	</div> -->
