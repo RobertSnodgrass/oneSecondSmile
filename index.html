@@ -5,18 +5,18 @@ layout: default
 <!--this is the middle of the main page-->
 <div class="home">
 
-  <h1 class="page-heading"></h1>
+  <h1 class="page-heading">Posts</h1>
 
-
-  <!-- <ul class="post-list"> -->
+  <ul class="post-list">
     {% for post in site.posts %}
-      <!-- <li> -->
+      <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-          
         </h2>
+        {{ post.excerpt }}
+      </li>
 
           <div id="slides">
                 <div><img src="images/CheerUp1.png" alt=""></div>
@@ -30,7 +30,7 @@ layout: default
                 <div><img src="images/CheerUp9.png" alt=""></div>
                 <div><img src="images/CheerUp99.png" alt=""></div>
           </div> 
-      <!-- </li> -->
+      
 
         <div class="row">
    
@@ -42,11 +42,4 @@ layout: default
         <button type="button" class="slick-next">Next</button>
 
     {% endfor %}
-  <!-- </ul> -->
-
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
- -->
-
-  
-
 </div>
