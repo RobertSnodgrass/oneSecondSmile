@@ -1,7 +1,7 @@
 /*-----------------------------------------------------------------------------------------------------
 -------------------------------------------[UNIVERSAL]-------------------------------------------------
 -----------------------------------------------------------------------------------------------------*/
-img { max-width: 100%;}
+
 
 
 
@@ -29,11 +29,13 @@ a.site-title{
 	font-family: 'Quicksand', sans-serif;
 	/*font-weight: bold;*/
 	font-size: 4.5em;
+	width: 100%;
 	/*border: white 2px solid;*/
 	/*background-color: white;*/
 	/*border-radius: 10px;*/
 	/*color: #3A5162;*/
 	color: white;
+	width: 100%;
 }
 
 header .wrapper{
@@ -207,6 +209,7 @@ div.social-Links{
 	color: White;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 0.5em;
+	width: 100%;
 	/*margin-left: 150px;*/
 }
 
